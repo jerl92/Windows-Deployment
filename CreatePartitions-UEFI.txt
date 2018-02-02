@@ -17,9 +17,8 @@ rem == 2. Microsoft Reserved (MSR) partition =======
 create partition msr size=16
 rem == 3. Windows partition ========================
 rem ==    a. Create the Windows partition ==========
-create partition primary 
-rem ==    b. Create space for the recovery tools ===
-shrink minimum=900
+create partition primary
+shrink minimum=475
 rem       ** NOTE: Update this size to match the
 rem                size of the recovery tools 
 rem                (winre.wim)                    **
@@ -27,7 +26,7 @@ rem ==    c. Prepare the Windows partition =========
 format quick fs=ntfs label="Windows"
 assign letter="W"
 rem === 4. Recovery partition ======================
-create partition primary
+create partition primary size=475
 format quick fs=ntfs label="Recovery"
 assign letter="R"
 set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
