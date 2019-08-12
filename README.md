@@ -1,10 +1,7 @@
 # Windows-Deployment
 ApplyImage.bat and ApplyRecovery.bat
 
-<img src="https://img15.hostingpics.net/pics/382971spezialisation.png" data-canonical-src="https://img15.hostingpics.net/pics/382971spezialisation.png" style="max-width:100%; margin:0 auto;">
-
-<img src="https://img15.hostingpics.net/pics/121969disk1.jpg" data-canonical-src="https://img15.hostingpics.net/pics/121969disk1.jpg" style="max-width:100%;">
-
+## Getting ready
 You must use the Sysprep /generalize command to generalize a complete Windows installation before you can use the installation for deployment to a new computer, whether you use imaging, hard disk duplication, or another method. Moving or copying a Windows image to a different computer without running the Sysprep /generalize command is not supported.
 
 The hardware must be connected to identical locations and must use the same drivers, and the drivers must have a consistent, unique naming scheme.
