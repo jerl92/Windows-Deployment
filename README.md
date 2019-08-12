@@ -1,5 +1,12 @@
 # Windows-Deployment
-ApplyImage.bat and ApplyRecovery.bat
+ApplyImage.bat</br>
+WindowsPE batch file to format and apply windows installation.</br>
+
+## How to use it
+Copy install.win file from media and copy it to Windows-Deployment folder.</br>
+Boot on a Windows PE environment. And do the following command.</br>
+`X:\Windows-Deployment\ApplyImage.bat X:\Windows-Deployment\install.win`</br>
+https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive</br>
 
 ## Getting ready
 You must use the Sysprep /generalize command to generalize a complete Windows installation before you can use the installation for deployment to a new computer, whether you use imaging, hard disk duplication, or another method. Moving or copying a Windows image to a different computer without running the Sysprep /generalize command is not supported.
