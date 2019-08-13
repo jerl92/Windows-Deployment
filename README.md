@@ -3,9 +3,12 @@ ApplyImage.bat</br>
 WindowsPE batch file to format and apply windows installation.</br>
 
 ## How to use it
-Copy install.win file from media and copy it to Windows-Deployment folder.</br>
-Boot on a Windows PE environment. And do the following command.</br>
-`X:\Windows-Deployment\ApplyImage.bat X:\Windows-Deployment\install.win`</br>
+1. Make a bootable WindowsPE drive.</br>
+2. Copy Windows-Deployment folder on the drive.</br>
+2. Copy install.win file from Windows installation media in the sources folder and copy it to Windows-Deployment folder on the WindowsPE media.</br>
+3. Boot on the WindowsPE environment. And do the following command.</br>
+4. `X:\Windows-Deployment\ApplyImage.bat X:\Windows-Deployment\install.win`</br>
+</br>
 https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive</br>
 
 ## Getting ready
