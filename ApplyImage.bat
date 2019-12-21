@@ -10,9 +10,6 @@
 @echo   After the script is complete, use apply-recovery.bat to finish
 @echo   setting up the recovery tools.
 @echo.
-@echo * This script creates a now includes support for the /EA variables for quicker
-@echo   image capture and recovery.
-@echo.
 @echo * This script now includes support for the /EA variables for quicker
 @echo   image capture and recovery.
 @echo.
