@@ -15,11 +15,12 @@ WindowsPE batch file to format and apply windows installation.</br>
 ## Getting ready
 You must use the Sysprep /generalize command to generalize a complete Windows installation before you can use the installation for deployment to a new computer, whether you use imaging, hard disk duplication, or another method. Moving or copying a Windows image to a different computer without running the Sysprep /generalize command is not supported.
 
-The hardware must be connected to identical locations and must use the same drivers, and the drivers must have a consistent, unique naming scheme.
-
 <b>Moving or copying a Windows image to a different PC without generalizing the PC is not supported.</b>
 </br>
 <b>If the hardware is not identical, severe system problems may result.</b>
+
+The hardware must be connected to identical locations and must use the same drivers, and the drivers must have a consistent, unique naming scheme.</br>
+https://en.wikipedia.org/wiki/Naming_convention_(programming)
 
 Types of problems that can occur with a hardware-configuration change
 Even seemingly minor changes to the hardware or hardware configuration can cause severe or easily-overlooked problems, such as the following:
