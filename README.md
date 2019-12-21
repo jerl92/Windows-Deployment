@@ -37,6 +37,8 @@ Even seemingly minor changes to the hardware or hardware configuration can cause
 
 https://docs.microsoft.com/fr-ca/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview
 
+https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/maintain-driver-configurations-when-capturing-a-windows-image
+
 ## Secure boot
 Secure boot is a security standard developed by members of the PC industry to help make sure that a device boots using only software that is trusted by the Original Equipment Manufacturer (OEM). When the PC starts, the firmware checks the signature of each piece of boot software, including UEFI firmware drivers (also known as Option ROMs), EFI applications, and the operating system. If the signatures are valid, the PC boots, and the firmware gives control to the operating system.
 
