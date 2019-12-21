@@ -1,14 +1,10 @@
 @echo Apply-Image.bat
-@echo     Run from the reference device in the WinPE environment
-@echo     This script erases the primary hard drive and applies a new image
+@echo   Run from the reference device in the WinPE environment
+@echo   This script erases the primary hard drive and applies a new image
 @echo.
-@echo UPDATE (JULY 2016):
 @echo * This script stops just after applying the image.
 @echo   This gives you an opportunity to add siloed provisioning packages (SPPs)
 @echo   so that you can include them in your recovery tools.
-@echo.
-@echo   After the script is complete, use apply-recovery.bat to finish
-@echo   setting up the recovery tools.
 @echo.
 @echo * This script now includes support for the /EA variables for quicker
 @echo   image capture and recovery.
