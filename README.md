@@ -2,6 +2,8 @@
 ApplyImage.bat</br>
 WindowsPE batch file to format and apply windows installation.</br>
 
+<img style="max-width: 100%;" src="https://i.ibb.co/D4GDZ1B/maxresdefault.jpg" />
+
 ## How to use it
 1. Make a bootable WindowsPE drive.</br>
   https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive</br>
